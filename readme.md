@@ -27,13 +27,9 @@ A graphical abstract of the study could also be included as an image here.
 - `Date modified`: 2025-02-17
 - `Spatial Coverage`: Alabama OSM: [161950](https://www.openstreetmap.org/relation/161950)
 - `Spatial Resolution`: Census Block Groups
-- `Spatial Reference System`: EPSG:4269, NAD 1983
-- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
-- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
-- `Funding Name`: name of funding for the project
-- `Funding Title`: title of project grant
-- `Award info URI`: web address for award information
-- `Award number`: award number
+- `Spatial Reference System`: EPSG:4269, NAD 1983 Geographic Coordinate System
+- `Temporal Coverage`: 2020-2024 population and voting data
+- `Temporal Resolution`: Decennial Census
 
 ## Related to
 
