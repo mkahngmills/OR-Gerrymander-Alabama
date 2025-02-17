@@ -1,6 +1,6 @@
 ---
-title: "Analysis"
-author: "HEGSRR"
+title: "Gerrymandering in Alabama"
+author: "Matthew Mills"
 date: "`r Sys.Date()`"
 output: pdf_document
 editor_options:
@@ -9,12 +9,6 @@ editor_options:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../../docs/report") })
 ---
-
-# Instructions
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
-For more details on using R Markdown see <https://rmarkdown.rstudio.com/lesson-1.html>.
-In the section above, you can configure [options for this document](https://bookdown.org/yihui/rmarkdown/html-document.html), including title, author(s), and additional style and output options.
-You may delete these instructions from your pre-analyis plan.
 
 # Abstract
 
@@ -55,21 +49,21 @@ A graphical abstract of the study could also be included as an image here.
 
 # Study design
 
-Describe how the study relates to prior literature, e.g. is it a **original study**, **meta-analysis study**, **reproduction study**, **reanalysis study**, or **replication study**?
+This is an original study based on literature on gerrymandering metrics.
 
-Also describe the original study archetype, e.g. is it **observational**, **experimental**, **quasi-experimental**, or **exploratory**?
-
-Enumerate specific **hypotheses** to be tested or **research questions** to be investigated here, and specify the type of method, statistical test or model to be used on the hypothesis or question.
+It is an exploratory study to evaluate usefulness of a new gerrymandering metric based on the convex hull and representativness in the convex hull compared to the congressional district.
 
 # Materials and procedure
 
 ## Computational environment
 
+I plan on using package ... for ...
+
 ```{r environment-setup, include = FALSE}
 # record all the packages you are using here
 # this includes any calls to library(), require(),
 # and double colons such as here::i_am()
-packages <- c("tidyverse", "here")
+packages <- c("tidyverse", "here", "sf", "tmap", "tidycensus")
 
 # force all conflicts to become errors
 # if you load dplyr and use filter(), R has to guess whether you mean dplyr::filter() or stats::filter()
@@ -87,7 +81,7 @@ if (!require(groundhog)) {
 
 # this date will be used to determine the versions of R and your packages
 # it is best practice to keep R and its packages up to date
-groundhog.day <- "2023-06-26"
+groundhog.day <- "2025-02-01"
 
 # this replaces any library() or require() calls
 groundhog.library(packages, groundhog.day)
@@ -117,6 +111,14 @@ knitr::opts_chunk$set(
 ```
 
 ## Data and variables
+
+We plan on using data sources ..., ... ....
+
+### Precincts 2020
+
+copy metadata for precincts 2020 here.
+
+write code to read in precincts20.md into this document
 
 Describe the **data sources** and **variables** to be used.
 Data sources may include plans for observing and recording **primary data** or descriptions of **secondary data**.
