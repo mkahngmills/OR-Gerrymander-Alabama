@@ -1,9 +1,8 @@
-# Title of Study
+# Gerrymandering in Alabama
 
 ### Authors
 
-- First Name Last Name\*, email address, @githubname, ORCID link, affiliated institution(s)
-- First Name Last Name, email address, @githubname, ORCID link, affiliated institution(s)
+- Matthew Mills \*, mmills@middlebury.edu, @mkahngmills, https://mkahngmills.github.io/, Middlebury College
 
 \* Corresponding author and creator
 
@@ -11,44 +10,25 @@
 
 Write a brief abstract about your research project.
 
-If the project is a reproduction or replication study, include a declaration of the study type with a full reference to the original study.
-For example:
-
-This study is a *replication* of:
-
-> citation to prior study
-
-A graphical abstract of the study could also be included as an image here.
 
 ### Study metadata
 
-- `Key words`: Comma-separated list of keywords (tags) for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
-- `Subject`: select from the [BePress Taxonomy](http://digitalcommons.bepress.com/cgi/viewcontent.cgi?article=1008&context=reference)
-- `Date created`: date when project was started
-- `Date modified`: date of most recent revision
-- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
-- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
-- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study, e.g. EPSG:4326
-- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
-- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
-- `Funding Name`: name of funding for the project
-- `Funding Title`: title of project grant
-- `Award info URI`: web address for award information
-- `Award number`: award number
+- `Key words`: Alabama, gerrymandering, race, political representation, compactness
+- `Subject`: Social and Behavioral Sciences: Geography: Geographic Information Sciences
+- `Date created`: 02/22/2025
+- `Date modified`: 05/20/2025
+- `Spatial Coverage`: Alabama
+- `Spatial Resolution`: Census Block Groups
+- `Spatial Reference System`: EPSG:4269 NAD 1983 Geographic Coordinate System
+- `Temporal Coverage`: 2020-2024 population and voting data
+- `Temporal Resolution`: Decennial census
 
-#### Original study spatio-temporal metadata
-
-- `Spatial Coverage`: extent of original study
-- `Spatial Resolution`: resolution of original study
-- `Spatial Reference System`: spatial reference system of original study
-- `Temporal Coverage`: temporal extent of original study
-- `Temporal Resolution`: temporal resolution of original study
 
 ## Study design
 
-Describe how the study relates to prior literature, e.g. is it a **original study**, **meta-analysis study**, **reproduction study**, **reanalysis study**, or **replication study**?
+This is an original, exploratory study based on the gerrymandering literature.
 
-Also describe the original study archetype, e.g. is it **observational**, **experimental**, **quasi-experimental**, or **exploratory**?
+The study seeks to determine if there is evidence of a political or racial gerrymander based on bounding circle, bounding box, and convex hull methods for analyzing compactness.
 
 Enumerate specific **hypotheses** to be tested or **research questions** to be investigated here, and specify the type of method, statistical test or model to be used on the hypothesis or question.
 
@@ -216,15 +196,12 @@ Describe how the results are to be interpreted *vis a vis* each hypothesis or re
 
 ## Integrity Statement
 
-Include an integrity statement - The authors of this preregistration state that they completed this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and research.
-If a prior registration *does* exist, explain the rationale for revising the registration here.
+The authors of this preregistration state that they completed this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and research.
 
 ## Acknowledgements
 
-- `Funding Name`: name of funding for the project
-- `Funding Title`: title of project grant
-- `Award info URI`: web address for award information
-- `Award number`: award number
+- `GEOG0361 S'25`: Thank you to my class!
+- `Joesph Holler`: Thank you to my professor for all of your support!
 
 This report is based upon the template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ)
 
